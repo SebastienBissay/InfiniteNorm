@@ -7,6 +7,21 @@ import java.util.Map;
 
 public final class Parameters {
     public static final long SEED = 11;
+    public static final int WIDTH = 1000;
+    public static final int HEIGHT = 1000;
+    public static final int NUMBER_OF_MASSES = 25;
+    public static final int NUMBER_OF_FRAMES = 250;
+    public static final int LINES_PER_FRAME = 100;
+    public static final int MAX_LINE_LENGTH = 10000;
+    public static final float ATTRACTION_FORCE = .00001f;
+    public static final float SPEED_MAGNITUDE = 1f;
+    public static final float MASS_MARGIN_FACTOR = .1f;
+    public static final float MASS_OFFSET_MAXIMUM_FACTOR = 1f;
+    public static final float MASS_OFFSET_EXPONENT = .75f;
+    public static final float MASS_MINIMUM_WEIGHT = .1f;
+    public static final float MASS_MAXIMUM_WEIGHT = 1f;
+    public static final Color BACKGROUND_COLOR = new Color(240, 235, 230);
+    public static final Color STROKE_COLOR = new Color(25, 10, 5, 10);
 
     /**
      * Helper method to extract the constants in order to save them to a json file
